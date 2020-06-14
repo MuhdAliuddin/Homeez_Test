@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
+import FloorPlan from './floorplan/FloorPlan'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Homeez Test</h1>
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+        <FloorPlan />
+      </div>
+    )
+  }
 }
 
 export default App;
