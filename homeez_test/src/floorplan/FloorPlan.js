@@ -20,7 +20,6 @@ class FloorPlan extends Component {
                     })}
                 </svg>
             </div>
-
         )
     }
 }
