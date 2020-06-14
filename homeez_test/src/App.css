@@ -9,9 +9,13 @@ body {
   line-height: 1.4;
 }
 
-a {
-  color: green;
-  text-decoration: none;
+img {
+  position: absolute;
+  top: 28px;
+  left: 545px;
+
+  transform: rotate(90deg);
+  width: 100px;
 }
 
 .content-div {

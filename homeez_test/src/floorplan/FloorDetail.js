@@ -7,7 +7,7 @@ class FloorDetail extends Component {
         const {post} = this.props
         
         return (
-            <polygon id={post.id} points={post.points} style={{stroke:"white",fill:"grey"}}></polygon>
+            <polygon id={post.id} points={post.points} style={{stroke:"black",fill:"grey"}}></polygon>
     )
   }
 }
